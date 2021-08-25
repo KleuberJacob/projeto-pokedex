@@ -13,8 +13,8 @@ export default function Sobre(){
 
     const calc = parseFloat(2.20)
     
-    async function getDataPokemon(){
-        await apiGetAllPokemons.get(`${id}`)
+    function getDataPokemon(){
+        apiGetAllPokemons.get(`${id}`)
         .then((response) => {
             setDataPokemon(response.data)
             setLoading(false);
@@ -27,6 +27,7 @@ export default function Sobre(){
         
     useEffect(() => {
         getDataPokemon()
+        // eslint-disable-next-line react-hooks/exhaustive-deps
     }, []) 
 
     return(
