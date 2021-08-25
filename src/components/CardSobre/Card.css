@@ -1,0 +1,175 @@
+.cardSobre{
+    display: flex;
+    box-sizing: border-box;
+    flex-direction: column;
+    margin: 25px auto;
+    padding: 5px;
+    width: 350px;
+    height: 400px;
+    border: 1px solid;
+    border-radius: 5px;    
+    justify-content: center;
+    align-items: center;
+    align-content:space-between;  
+    background-color: white;  
+    text-transform: capitalize;
+}
+
+.cardSobre > h3{    
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.cardSobre > .type > span{
+    font-size: 20px;
+}
+
+.cardSobre > .type > .tipograss{    
+    padding: 1px 6px;
+    font-size: 15px;
+    border: 1px rgb(42, 41, 41);
+    border-radius: 5px;    
+    color: rgb(17, 16, 16);
+    background-color: green;
+}
+
+.cardSobre > .type > .tipofire {
+    padding: 1px 6px;
+    font-size: 15px;
+    border: 1px rgb(42, 41, 41);
+    border-radius: 5px;    
+    color: rgb(20, 16, 16);
+    background-color: red;
+}
+
+.cardSobre > .type > .tipowater {
+    padding: 1px 6px;
+    font-size: 15px;
+    border: 1px rgb(42, 41, 41);
+    border-radius: 5px;    
+    color: rgb(197, 187, 187);
+    background-color: rgb(3, 66, 85);
+}
+
+.cardSobre > .type > .tipobug {
+    padding: 1px 6px;
+    font-size: 15px;
+    border: 1px rgb(42, 41, 41);
+    border-radius: 5px;    
+    color: rgb(17, 16, 16);
+    background-color: rgb(54, 167, 69);
+}
+
+.cardSobre > .type > .tiponormal {
+    padding: 1px 6px;
+    font-size: 15px;
+    border: 1px rgb(42, 41, 41);
+    border-radius: 5px;    
+    color: rgb(17, 16, 16);
+    background-color: rgb(117, 114, 103);
+}
+
+.cardSobre > .type > .tipopoison {
+    padding: 1px 6px;
+    font-size: 15px;
+    border: 1px rgb(42, 41, 41);
+    border-radius: 5px;    
+    color: rgb(17, 16, 16);
+    background-color: rgb(148, 9, 241);
+}
+
+.cardSobre > .type > .tipoelectric {
+    padding: 1px 6px;
+    font-size: 15px;
+    border: 1px rgb(42, 41, 41);
+    border-radius: 5px;    
+    color: rgb(17, 16, 16);
+    background-color: rgb(236, 187, 9);
+}
+
+.cardSobre > .type > .tipoground {
+    padding: 1px 6px;
+    font-size: 15px;
+    border: 1px rgb(42, 41, 41);
+    border-radius: 5px;    
+    color: rgb(17, 16, 16);
+    background-color: rgb(109, 86, 3);
+}
+
+.cardSobre > .type > .tipofighting {
+    padding: 1px 6px;
+    font-size: 15px;
+    border: 1px rgb(42, 41, 41);
+    border-radius: 5px;    
+    color: rgb(17, 16, 16);
+    background-color: rgb(240, 148, 0);
+}
+
+.cardSobre > .type > .tipopsychic {
+    padding: 1px 6px;
+    font-size: 15px;
+    border: 1px rgb(42, 41, 41);
+    border-radius: 5px;    
+    color: rgb(17, 16, 16);
+    background-color: rgb(180, 99, 173);
+}
+
+.cardSobre > .type > .tiporock {
+    padding: 1px 6px;
+    font-size: 15px;
+    border: 1px rgb(42, 41, 41);
+    border-radius: 5px;    
+    color: rgb(17, 16, 16);
+    background-color: rgb(172, 136, 52);
+}
+
+.cardSobre > .type > .tipoghost {
+    padding: 1px 6px;
+    font-size: 15px;
+    border: 1px rgb(42, 41, 41);
+    border-radius: 5px;    
+    color: rgb(17, 16, 16);
+    background-color: rgb(122, 21, 122);
+}
+
+.cardSobre > .type > .tipoice {
+    padding: 1px 6px;
+    font-size: 15px;
+    border: 1px rgb(42, 41, 41);
+    border-radius: 5px;    
+    color: rgb(17, 16, 16);
+    background-color: rgb(129, 188, 206);
+}
+
+.cardSobre > .type > .tipofairy {
+    padding: 1px 6px;
+    font-size: 15px;
+    border: 1px rgb(42, 41, 41);
+    border-radius: 5px;    
+    color: rgb(17, 16, 16);
+    background-color: rgb(224, 162, 206);
+}
+
+.cardSobre > .type > .tipodragon {
+    padding: 1px 6px;
+    font-size: 15px;
+    border: 1px rgb(42, 41, 41);
+    border-radius: 5px;    
+    color: rgb(17, 16, 16);
+    background-color: rgb(240, 164, 64);
+}
+
+.cardSobre > span{
+    font-size: 20px;
+    margin: 1px 0 0px 0;
+    font-weight: 700;
+}
+
+.cardSobre > .icon{
+    width: 200px;
+    height: 200px;
+}
+
+.cardSobre > img{
+    width: 100%;
+}
