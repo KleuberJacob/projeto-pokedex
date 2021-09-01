@@ -3,6 +3,7 @@ import React, { useEffect, useState } from 'react';
 import apiGetAllPokemons from '../../services/api'
 
 import Card from '../../components/CardHome/Card.jsx'
+import Footer from '../../components/Footer/Footer.jsx'
 
 export default function Home(props) {
     
@@ -42,9 +43,8 @@ export default function Home(props) {
                                   peso={(pokemon.weight / calc).toFixed(0)}>                                                                                     
                             </Card>                            
                         ))}                      
-                    
+                
                 </div>
-
                 ) }
             </div>
     ) 

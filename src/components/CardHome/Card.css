@@ -3,16 +3,26 @@
     box-sizing: border-box;
     flex-direction: column;
     margin: 10px auto;
-    padding: 10px 10px;
+    padding: 5px 0px;
     width: 200px;
     height: 250px;
-    border: 1px solid;
+    border: 2px solid;
     border-radius: 5px;
-    box-shadow: 5px 5px rgb(211, 198, 83);
+    box-shadow: 5px 5px rgb(161, 161, 160);
     justify-content: center;
-    align-items: center;
-    align-content:space-between;    
+    align-items: center;    
     text-transform: capitalize;
+    overflow: hidden;
+}
+
+.card .title{
+    display: flex;
+    width: 200px;
+    border: 5px;
+    border-radius: 5px;
+    justify-content: center;
+    padding: 5px 0;
+    background-color: rgb(246, 204, 64);
 }
 
 h3{
@@ -31,12 +41,36 @@ span{
     height: 20px;
     background-color:rgb(189, 18, 18);
     color: white;
-    border-radius: 10px;
-    box-shadow: 2px 2px black;
+    border-radius: 5px;    
     text-decoration: none;  
     text-align: center;
     font-size: 15px;
+    margin: 0 5px auto;
 }
+
+.btn {background-image: linear-gradient(to right, #fb2d04 0%, #dd2424  51%, #FF512F  100%)}
+
+.btn {
+   font-size: 14px;
+   height: 20px;
+   margin: 2px;
+   padding: 2px;
+   text-align: center;
+   text-transform: uppercase;
+   transition: 0.5s;
+   background-size: 200% auto;
+   color: white;            
+   box-shadow: 0 0 5px #eee;
+   border-radius: 10px;
+   display: block;
+}
+
+.btn:hover {
+   background-position: right center; /* change the direction of the change here */
+   color: rgb(231, 23, 23);
+   text-decoration: none;
+}
+
 
 section .icon{
     width: 100px;

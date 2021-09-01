@@ -1,7 +1,9 @@
 import './Sobre.css'
 import React, { useState, useEffect } from 'react'
 import { Link, useParams } from 'react-router-dom'
+
 import apiGetAllPokemons from '../../services/api'
+
 import Card from '../../components/CardSobre/Card.jsx'
 
 export default function Sobre(){
@@ -32,21 +34,26 @@ export default function Sobre(){
 
     return(
 
-        <main className="body"> 
+        <main className="body container">
 
-            <Link className="button" to="/">Voltar</Link> 
+            <div className="button-sobre">
 
-            { loading ? <p>Carregando Dados do Pokemon...</p> : (
-                
-                <Card 
-                    nome={dataPokemon.name}
-                    tipo={dataPokemon.types[0].type.name}              
-                    id={dataPokemon.id} 
-                    img={dataPokemon.sprites.front_default}
-                    peso={(dataPokemon.weight / calc).toFixed(0)}> 
-                </Card>                
+                <Link className="btn-sobre" to="/">Voltar</Link> 
 
-            ) }                                                             
+            </div>    
+
+                { loading ? <p>Carregando Dados do Pokemon...</p> : (
+                    
+                    <Card                         
+                        nome={dataPokemon.name}
+                        tipo={dataPokemon.types[0].type.name}              
+                        id={dataPokemon.id} 
+                        img={dataPokemon.sprites.front_default}
+                        peso={(dataPokemon.weight / calc).toFixed(0)}> 
+                    </Card>
+                ) }                
+
+            
             
         </main>
     )

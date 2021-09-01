@@ -5,7 +5,10 @@ export default function Card(props) {
 
     return(
         <section className="cardSobre">
-            <h3>{props.nome}</h3>
+            <div className="title">
+                <h3>{props.nome}</h3>            
+            </div>            
+            
             <div className="type">
                 <span>Tipo: </span>
                 <span className={'tipo' + props.tipo}>{props.tipo}</span>                
@@ -14,7 +17,7 @@ export default function Card(props) {
             <div className="icon">
                 <img id='imagem' src={props.img} alt={props.nome}></img>
             </div>
-            <span>Peso: {props.peso}Kg</span>                        
+            <span>Peso: {props.peso}Kg</span>                                  
         </section>
     )
 }
