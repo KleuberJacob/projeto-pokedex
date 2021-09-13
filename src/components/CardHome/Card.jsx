@@ -4,17 +4,20 @@ import { Link } from 'react-router-dom'
 
 export default function Card(props) {
     return(
-        <section className="card">
-            <div className="title">
-                <h3>{props.nome}</h3>
+        <Link to={`/sobre/${props.id}`}>
+            <div className="Card">
+                <div className="Title">
+                    <h3>{props.nome}</h3>
+                </div>
+                <div className="Content">
+                    <span>Tipo: {props.tipo}</span>
+                    <span>#{props.id}</span>
+                    <div className="icon">
+                        <img src={props.img} alt={props.nome}></img>
+                    </div>
+                    <span>Peso: {props.peso}Kg</span>
+                </div>
             </div>
-            <span>Tipo: {props.tipo}</span>
-            <span>#{props.id}</span>
-            <div className="icon">
-                <img src={props.img} alt={props.nome}></img>
-            </div>
-            <span>Peso: {props.peso}Kg</span>
-            <Link className="btn" to={`/sobre/${props.id}`} >Informações</Link>            
-        </section>
+        </Link>        
     )
 }

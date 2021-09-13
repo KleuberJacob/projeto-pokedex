@@ -8,6 +8,7 @@ export default function Home(props) {
     
     const [loading, setLoading] = useState(true);
     const [pokemon, setPokemon] = useState([]);
+    
     const calc = parseFloat(2.20)
 
     async function loadPokemons(){

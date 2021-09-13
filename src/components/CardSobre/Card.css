@@ -1,183 +1,299 @@
-.cardSobre{
-    display: flex;
-    flex-direction: column;
-    box-sizing: border-box;
-    margin: 5px auto;    
-    width: 300px;
-    height: 350px;
-    border: 2px solid;
-    border-radius: 5px;   
-    align-items: center;    
-    background-color: white;  
-    text-transform: capitalize;    
+@media only screen and (min-width: 320px ){
+
+    .Sobre{
+        display: flex;
+        flex-direction: column;
+        box-sizing: border-box;
+        width: 230px;
+        height: 280px;        
+        margin: 1px auto;    
+        border-radius: 20px;   
+        align-items: center;    
+        background-color: white;  
+        text-transform: capitalize;    
+    }
+    
+    .titulo{   
+        width: 100%;
+        height: 50px;            
+        margin-bottom: 2px;
+        padding: 4px;         
+        border-radius: 16px;      
+        box-sizing: border-box;
+        background-color: rgb(246, 204, 64);
+    }
+    
+    .titulo h3{
+        font-size: 30px;
+        font-weight: 700;
+    }
+    
+    .Type > span{
+        font-size: 20px;    
+    }
+
+    .Type > .grass{
+        padding: 1px 10px;
+        font-size: 15px;
+        border: 2px rgb(42, 41, 41);
+        border-radius: 10px;    
+        color: rgb(248, 247, 247);         
+        background-color: green;
+    }
+    
+    .Type > .fire {
+        padding: 1px 10px;
+        font-size: 15px;
+        border: 2px rgb(42, 41, 41);
+        border-radius: 10px;    
+        color: rgb(248, 247, 247);                  
+        background-color: red;
+    }
+    
+    .Type > .water {
+        padding: 1px 10px;
+        font-size: 15px;
+        border: 2px rgb(42, 41, 41);
+        border-radius: 10px;    
+        color: rgb(248, 247, 247);      
+        background-color: rgb(3, 66, 85);
+    }
+    
+    .Type > .bug {
+        padding: 1px 10px;
+        font-size: 15px;
+        border: 2px rgb(42, 41, 41);
+        border-radius: 10px;    
+        color: rgb(248, 247, 247);                
+        background-color: rgb(54, 167, 69);
+    }
+    
+    .Type > .normal {
+        padding: 1px 10px;
+        font-size: 15px;
+        border: 2px rgb(42, 41, 41);
+        border-radius: 10px;    
+        color: rgb(248, 247, 247);                
+        background-color: rgb(117, 114, 103);
+    }
+    
+    .Type > .poison {
+        padding: 1px 10px;
+        font-size: 15px;
+        border: 2px rgb(42, 41, 41);
+        border-radius: 10px;    
+        color: rgb(248, 247, 247);           
+        background-color: rgb(148, 9, 241);
+    }
+    
+    .Type > .electric {
+        padding: 1px 10px;
+        font-size: 15px;
+        border: 2px rgb(42, 41, 41);
+        border-radius: 10px;    
+        color: rgb(248, 247, 247);             
+        background-color: rgb(236, 187, 9);
+    }
+    
+    .Type > .ground {
+        padding: 1px 10px;
+        font-size: 15px;
+        border: 2px rgb(42, 41, 41);
+        border-radius: 10px;    
+        color: rgb(248, 247, 247);          
+        background-color: rgb(109, 86, 3);
+    }
+    
+    .Type > .fighting {
+        padding: 1px 10px;
+        font-size: 15px;
+        border: 2px rgb(42, 41, 41);
+        border-radius: 10px;    
+        color: rgb(248, 247, 247);      
+        background-color: rgb(240, 148, 0);
+    }
+    
+    .Type > .psychic {
+        padding: 1px 10px;
+        font-size: 15px;
+        border: 2px rgb(42, 41, 41);
+        border-radius: 10px;    
+        color: rgb(248, 247, 247);         
+        background-color: rgb(180, 99, 173);
+    }
+    
+    .Type > .rock {
+        padding: 1px 10px;
+        font-size: 15px;
+        border: 2px rgb(42, 41, 41);
+        border-radius: 10px;    
+        color: rgb(248, 247, 247);           
+        background-color: rgb(172, 136, 52);
+    }
+    
+    .Type > .ghost {
+        padding: 1px 10px;
+        font-size: 15px;
+        border: 2px rgb(42, 41, 41);
+        border-radius: 10px;    
+        color: rgb(248, 247, 247);       
+        background-color: rgb(122, 21, 122);
+    }
+    
+    .Type > .ice {
+        padding: 1px 10px;
+        font-size: 15px;
+        border: 2px rgb(42, 41, 41);
+        border-radius: 10px;    
+        color: rgb(248, 247, 247);      
+        background-color: rgb(129, 188, 206);
+    }
+    
+    .Type > .fairy {
+        padding: 1px 10px;
+        font-size: 15px;
+        border: 2px rgb(42, 41, 41);
+        border-radius: 10px;    
+        color: rgb(248, 247, 247);     
+        background-color: rgb(224, 162, 206);
+    }
+    
+    .Type > .dragon {  
+        padding: 1px 10px;
+        font-size: 15px;
+        border: 2px rgb(42, 41, 41);
+        border-radius: 10px;    
+        color: rgb(248, 247, 247);         
+        background-color: rgb(240, 164, 64);
+    }
+    
+    .conteudo > span{
+        font-size: 18px;    ;
+        font-weight: 700;
+        margin: 2px;
+    }
+    
+    .Sobre .Icon{
+        width: 150px;
+        height: 150px;
+        margin-bottom: 2px;
+    }
+    
+    .Sobre .Icon > img{
+        width: 100%;
+    }
 }
 
-.cardSobre .title{   
-    width: 100%;
-    height: 60px;    
-    margin-bottom: 5px;
-    border: 1px;
-    border-radius: 5px;      
-    box-sizing: border-box;
-    background-color: rgb(246, 204, 64);
-}
 
-.cardSobre .title > h3{
-    font-size: 40px;
-    font-weight: 700;
-}
-
-.cardSobre > .type > span{
-    font-size: 20px;    
-}
-
-.cardSobre > .type > .tipograss{    
-    padding: 1px 15px;
-    font-size: 15px;
-    border: 1px rgb(42, 41, 41);
-    border-radius: 5px;    
-    color: rgb(17, 16, 16);
-    background-color: green;
-}
-
-.cardSobre > .type > .tipofire {
-    padding: 1px 15px;
-    font-size: 15px;
-    border: 1px rgb(42, 41, 41);
-    border-radius: 5px;    
-    color: rgb(20, 16, 16);
-    background-color: red;
-}
-
-.cardSobre > .type > .tipowater {
-    padding: 1px 15px;
-    font-size: 15px;
-    border: 1px rgb(42, 41, 41);
-    border-radius: 5px;    
-    color: rgb(197, 187, 187);
-    background-color: rgb(3, 66, 85);
-}
-
-.cardSobre > .type > .tipobug {
-    padding: 1px 15px;
-    font-size: 15px;
-    border: 1px rgb(42, 41, 41);
-    border-radius: 5px;    
-    color: rgb(17, 16, 16);
-    background-color: rgb(54, 167, 69);
-}
-
-.cardSobre > .type > .tiponormal {
-    padding: 1px 15px;
-    font-size: 15px;
-    border: 1px rgb(42, 41, 41);
-    border-radius: 5px;    
-    color: rgb(17, 16, 16);
-    background-color: rgb(117, 114, 103);
-}
-
-.cardSobre > .type > .tipopoison {
-    padding: 1px 15px;
-    font-size: 15px;
-    border: 1px rgb(42, 41, 41);
-    border-radius: 5px;    
-    color: rgb(17, 16, 16);
-    background-color: rgb(148, 9, 241);
-}
-
-.cardSobre > .type > .tipoelectric {
-    padding: 1px 15px;
-    font-size: 15px;
-    border: 1px rgb(42, 41, 41);
-    border-radius: 5px;    
-    color: rgb(17, 16, 16);
-    background-color: rgb(236, 187, 9);
-}
-
-.cardSobre > .type > .tipoground {
-    padding: 1px 15px;
-    font-size: 15px;
-    border: 1px rgb(42, 41, 41);
-    border-radius: 5px;    
-    color: rgb(17, 16, 16);
-    background-color: rgb(109, 86, 3);
-}
-
-.cardSobre > .type > .tipofighting {
-    padding: 1px 15px;
-    font-size: 15px;
-    border: 1px rgb(42, 41, 41);
-    border-radius: 5px;    
-    color: rgb(17, 16, 16);
-    background-color: rgb(240, 148, 0);
-}
-
-.cardSobre > .type > .tipopsychic {
-    padding: 1px 15px;
-    font-size: 15px;
-    border: 1px rgb(42, 41, 41);
-    border-radius: 5px;    
-    color: rgb(17, 16, 16);
-    background-color: rgb(180, 99, 173);
-}
-
-.cardSobre > .type > .tiporock {
-    padding: 1px 15px;
-    font-size: 15px;
-    border: 1px rgb(42, 41, 41);
-    border-radius: 5px;    
-    color: rgb(17, 16, 16);
-    background-color: rgb(172, 136, 52);
-}
-
-.cardSobre > .type > .tipoghost {
-    padding: 1px 15px;
-    font-size: 15px;
-    border: 1px rgb(42, 41, 41);
-    border-radius: 5px;    
-    color: rgb(17, 16, 16);
-    background-color: rgb(122, 21, 122);
-}
-
-.cardSobre > .type > .tipoice {
-    padding: 1px 15px;
-    font-size: 15px;
-    border: 1px rgb(42, 41, 41);
-    border-radius: 5px;    
-    color: rgb(17, 16, 16);
-    background-color: rgb(129, 188, 206);
-}
-
-.cardSobre > .type > .tipofairy {
-    padding: 1px 15px;
-    font-size: 15px;
-    border: 1px rgb(42, 41, 41);
-    border-radius: 5px;    
-    color: rgb(17, 16, 16);
-    background-color: rgb(224, 162, 206);
-}
-
-.cardSobre > .type > .tipodragon {
-    padding: 1px 15px;
-    font-size: 15px;
-    border: 1px rgb(42, 41, 41);
-    border-radius: 5px;    
-    color: rgb(17, 16, 16);
-    background-color: rgb(240, 164, 64);
-}
-
-.cardSobre > span{
-    font-size: 20px;    ;
-    font-weight: 700;
-    margin: 5px;
-}
-
-.cardSobre > .icon{
-    width: 170px;
-    height: 170px;
-    margin-bottom: 5px;
-}
-
-.cardSobre > img{
-    width: 100%;
+@media only screen and (min-width: 540px ){
+    
+    .Sobre{
+        margin: 5px auto;    
+        width: 300px;
+        height: 350px;
+        border: 2px solid;        
+    }
+    
+    .titulo{   
+        width: 100%;
+        height: 60px;    
+        margin-bottom: 5px;
+        border: 1px;        
+    }
+    
+    .titulo > h3{
+        font-size: 40px;
+    }
+    
+    .Type > span{
+        font-size: 20px;    
+    }
+    
+    .Type > .grass{
+        padding: 1px 15px;
+        font-size: 15px;
+    }
+    
+    .Type >.fire {
+        padding: 1px 15px;
+        font-size: 15px;
+    }
+    
+    .Type > .water {
+        padding: 1px 15px;
+        font-size: 15px;
+    }
+    
+    .Type > .bug {
+        padding: 1px 15px;
+        font-size: 15px;
+    }
+    
+    .Type > .normal {
+        padding: 1px 15px;
+        font-size: 15px;
+    }
+    
+    .Type > .poison {
+        padding: 1px 15px;
+        font-size: 15px;
+    }
+    
+    .Type > .electric {
+        padding: 1px 15px;
+        font-size: 15px;
+        border: 2px rgb(42, 41, 41);
+    }
+    
+    .Type > .ground {
+        padding: 1px 15px;
+        font-size: 15px;
+    }
+    
+    .Type > .fighting {
+        padding: 1px 15px;
+        font-size: 15px;
+    }
+    
+    .Type > .psychic {
+        padding: 1px 15px;
+        font-size: 15px;
+    }
+    
+    .Type > .rock {
+        padding: 1px 15px;
+        font-size: 15px;
+    }
+    
+    .Type > .ghost {
+        padding: 1px 15px;
+        font-size: 15px;
+    }
+    
+    .Type > .ice {
+        padding: 1px 15px;
+        font-size: 15px;
+    }
+    
+    .Type > .fairy {
+        padding: 1px 15px;
+        font-size: 15px;
+    }
+    
+    .Type > .dragon {  
+        padding: 1px 15px;
+        font-size: 15px;
+    }
+    
+    .Sobre > span{
+        font-size: 20px;    ;
+        margin: 5px;
+    }
+    
+    .conteudo .Icon{
+        width: 170px;
+        height: 170px;
+        margin-bottom: 5px;
+    }
+    
 }
